@@ -13,7 +13,10 @@ quantity = 4
 itemno = "zx12"
 price = 19.94
 orderstring = "I want {} pieces of {} item for {} dollars."
+orderstringindexed = "I want to pay {2} dollars for {1} item from your website - i'll take {0}"
 
 print(orderstring.format(quantity, itemno, price))
+print(orderstringindexed.format(quantity, itemno, price))
 print("I want {} number of {} item at {} per item".format(quantity, itemno, price))
 
+print(isinstance(orderstringindexed, str))
