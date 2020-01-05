@@ -4,12 +4,16 @@
 #
 # print(userInput)
 
-x = "awesome"
+x = "Hello, there Aubriana!"
 
-def myAwesomeFunction():
-    x = "fantastic"
-    print("Python is " + x)
+print(x[7:-1])
+print(len(x))
 
-myAwesomeFunction()
+quantity = 4
+itemno = "zx12"
+price = 19.94
+orderstring = "I want {} pieces of {} item for {} dollars."
 
-print("Python is " + x)
+print(orderstring.format(quantity, itemno, price))
+print("I want {} number of {} item at {} per item".format(quantity, itemno, price))
+
