@@ -20,3 +20,5 @@ print(orderstringindexed.format(quantity, itemno, price))
 print("I want {} number of {} item at {} per item".format(quantity, itemno, price))
 
 print(isinstance(orderstringindexed, str))
+
+
